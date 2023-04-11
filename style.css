@@ -52,6 +52,24 @@ body {
   display: none;
 }
 
+.learn-one{
+  text-decoration: 5px underline hsl(51, 100%, 49%);
+  font-size: 16px;
+  color: hsl(212, 27%, 19%);
+  transition: 0.3s;
+}
+
+.learn-two{
+  text-decoration: 5px underline hsl(7, 99%, 70%);
+  font-size: 16px;
+  color: hsl(212, 27%, 19%);
+  transition: 0.3s;
+}
+
+.learn-one:hover,.learn-two:hover{
+  transform: scale(1.01);
+}
+
 .ham-nav {
   display: none;
 }
