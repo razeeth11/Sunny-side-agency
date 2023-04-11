@@ -169,6 +169,45 @@ body{
   margin-top: 50px;
 }
 
+.last-div{
+  display: grid;
+  grid-template-columns: repeat( auto-fit , minmax( 310px , 1fr));
+  gap: 0;
+  align-items : center;
+  justify-items: center;
+}
+
+.last-div img{
+  max-width: 300px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 80px 0;
+  background-color: hsla(168, 34%, 41%, 0.711);
+}
+
+.footer a{
+  text-decoration: none;
+  padding: 10px ;
+  color : hsl(167, 40%, 24%);
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.footer a:hover{
+  color: white;
+}
+
+.footer-three{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 
 @media screen and (max-width : 1000px) {
   
